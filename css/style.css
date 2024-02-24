@@ -2,11 +2,13 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
 }
 
 
 html,body{
 	height: 100%;
+	
 }
 
 
@@ -63,20 +65,23 @@ section .cover-form{
 }
 .form-container{
 	float: right;
-	margin-right: 40px;
+	margin-right: 7px;
 	width: 400px;
 	height: 94%;
+	box-shadow: 1px 1px 2px 1px #13266B;
 	position: relative;
 	top: 3%;
 	bottom: 3%;
-	background-color:#8469C8;
+	background: linear-gradient(#05F2F2,violet);
 }
 .form-container h2{
 	font-weight: normal;
-	padding: 30px 15px;
+	padding: 20px 10px;
 	font-size: 18px;
 	text-align: center;
-	background-color: rgb(234,236,239);
+	background: linear-gradient(rgb(140, 113, 208),
+	#A999F1);
+	color:white;
 }
 .form-container form{
 	margin-top: 8px;
@@ -107,6 +112,25 @@ section .cover-form{
 	cursor: pointer;
 }
 
+section.chamada{
+	text-align: center;
+	position: relative;
+	width: 100%;
+	text-align: center;
+	align-items: center;
+}
+section.chamada .container{
+	padding: 50px 0;
+	background: linear-gradient(#00F7FD,#0597F2);
+}
+section.chamada h2{
+	width: 96%;
+	max-width: 600px;
+	display: inline-block;
+	color: white;
+	font-size: 30px;
+	font-weight: normal;
+}
 
 @media screen and (max-width: 510px){
 
