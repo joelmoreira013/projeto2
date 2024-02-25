@@ -111,6 +111,9 @@ section .cover-form{
 	border: 0;
 	cursor: pointer;
 }
+.form-container form input[type=submit]:hover{
+	background-color: purple;
+}
 
 section.chamada{
 	text-align: center;
@@ -124,14 +127,31 @@ section.chamada .container{
 	background: linear-gradient(#00F7FD,#0597F2);
 }
 section.chamada h2{
-	width: 96%;
-	max-width: 600px;
+	width: 100%;
+	max-width: 650px;
 	display: inline-block;
 	color: white;
 	font-size: 30px;
 	font-weight: normal;
 }
-
+.item-1-mosaico{
+	background-position: center;
+	background-size: cover;
+	width: 60%;
+	height:300px;
+}
+.item-2-mosaico{
+	padding: 100px 50px;
+	width: 40%;
+}
+footer .container{
+	text-align: center;
+	padding: 20px 0;
+	background: linear-gradient(#05DBF2,#0597F2);
+}
+footer img{
+	width: 130px;
+}
 @media screen and (max-width: 510px){
 
 	header{
@@ -143,6 +163,25 @@ section.chamada h2{
 		display: inline-block;
 		float: none;
 	}
-
-
+}
+@media screen and (max-width: 960px){
+	.bg{
+		text-align: center;
+	}
+	.form-container{
+		width: 96%;
+		max-width: 400px;
+		margin-top: 15px;
+		position: static;
+		display: inline-block;
+	}
+	.item-1-mosaico{
+		padding-top: 80%;
+		width: 100%;
+	}
+	.item-2-mosaico{
+		width: 100%;
+		padding: 60px 10px;
+		text-align: center;
+	}
 }
